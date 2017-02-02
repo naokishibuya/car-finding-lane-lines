@@ -60,7 +60,7 @@ It looks pretty good except the last two.  The yellow lines are not clear due to
 
 Using `cv2.cvtColor`, we can convert RGB image into different color space.  For example, [HSL and HSV color space](https://en.wikipedia.org/wiki/HSL_and_HSV).
 
-<img src='images/Hsl-hsv_models.svg' width='50%'>
+<img src='images/hsl-hsv.png' width='50%'>
 
 Image Source: [https://commons.wikimedia.org/wiki/File:Hsl-hsv_models.svg](https://commons.wikimedia.org/wiki/File:Hsl-hsv_models.svg)
 
