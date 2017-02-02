@@ -285,7 +285,7 @@ There are several parameters you'll need to tweak and tune:
 
 - rho: Distance resolution of the accumulator in pixels.
 - theta: Angle resolution of the accumulator in radians.
-- threshold: Accumulator threshold parameter. Only those lines are returned that get enough votes ( >\texttt{threshold} ).
+- threshold: Accumulator threshold parameter. Only those lines are returned that get enough votes (> `threshold`).
 - minLineLength: Minimum line length. Line segments shorter than that are rejected.
 - maxLineGap: Maximum allowed gap between points on the same line to link them.
 
