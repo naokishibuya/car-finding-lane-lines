@@ -54,7 +54,7 @@ def select_rgb_white_yellow(image):
 ![png](images/output_9_0.png)
 
 
-It looks pretty good except the last two.  The yellow lines are not clear due to the dark shade from the tree on the left.
+It looks pretty good except the two in which the yellow lines are not clear due to the dark shade from the tree on the left.
 
 ### HSL and HSV Color Space
 
@@ -231,7 +231,7 @@ edge_images = list(map(lambda image: detect_edges(image), blurred_images))
 
 When finding lane lines, we don't need to check the sky and the hills.  
 
-Roughly speaking, we are interested in the aread surrounded by the red lines below:
+Roughly speaking, we are interested in the area surrounded by the red lines below:
 
 <img src='images/region-of-interest.png' width='50%'/>
 
@@ -416,7 +416,7 @@ for image, lines in zip(test_images, list_of_lines):
 
 ## Video Clips
 
-I'm drwaing lanes on video clips.
+I'm drawing lanes on video clips.
 
 
 ```python
@@ -453,8 +453,7 @@ class LaneDetector:
         return draw_lane_lines(image, (left_line, right_line))
 ```
 
-Let's try the one with the solid white lane on the right first ...
-
+Let's try the one with the solid white lane on the right first.
 
 ```python
 def process_video(video_input, video_output):
@@ -475,11 +474,9 @@ The video inputs are in test_videos folder.  The video outputs are generated in 
 %time process_video('challenge.mp4', 'extra.mp4')
 ```
 
-[White Lanes Video](https://youtu.be/lc1QNDvjReA)
-
-[Yellow Lanes Video](https://youtu.be/lvLLalGfy9M)
-
-[Dark Shades Video](https://youtu.be/HTPEWC-fjCQ)
+- [White Lanes Video](https://youtu.be/lc1QNDvjReA)
+- [Yellow Lanes Video](https://youtu.be/lvLLalGfy9M)
+- [Dark Shades Video](https://youtu.be/HTPEWC-fjCQ)
 
 ## Conclusion
 
