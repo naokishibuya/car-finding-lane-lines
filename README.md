@@ -488,4 +488,4 @@ Having said that, the lanes near the car are mostly straight in the images.  The
 
 Another thing is that it won't work for steep (up or down) roads because the region of interest mask is assumed from the center of the image.
 
-For steep roads, we first need to detect the holizontal line (between the sky and the earth) so that we can tell up to where the lines should extend.
+For steep roads, we first need to detect the horizontal line (between the sky and the earth) so that we can tell up to where the lines should extend.
