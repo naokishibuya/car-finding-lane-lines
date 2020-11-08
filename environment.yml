@@ -2,12 +2,12 @@ name: car-finding-lane-lines
 channels:
     - https://conda.anaconda.org/menpo
 dependencies:
-    - python==3.5
+    - python==3.7
     - numpy
     - matplotlib
     - pillow
     - jupyter
-    - opencv3
     - imageio
     - pip:
         - moviepy
+        - opencv-python

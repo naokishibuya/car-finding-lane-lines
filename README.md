@@ -18,6 +18,32 @@ The following techniques are used:
 
 Finally, I applied all the techniques to process video clips to find lane lines in them.
 
+## How to Reproduce the results
+
+To set up the conda environment, execute the following:
+
+```python
+conda env create -f environment.yaml
+```
+
+Then, activate the environment:
+
+```python
+conda activate car-finding-lane-lines
+```
+
+Start the jupyter notebook:
+
+```bash
+jupyter notebook Finding_Lane_Lines_on_the_Road.ipynb
+```
+
+Execute all the cells in the jupyter notebook.  The output videos are generated in the `output_videos` folder.
+
+---
+
+The following explains what the codes in the notebook do.
+
 ## Test Images
 
 Let's load and examine the test images.
